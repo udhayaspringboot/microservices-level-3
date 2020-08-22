@@ -1,0 +1,14 @@
+message1 : hello User
+server.port : 8056
+app :
+    name : miservlev3
+    description :  Hai Welcome to ${app.name}
+
+mess.listval  : one,two,three
+
+db :
+   connection  : testing connection profile
+   host  : 197.2.00.56
+   port : 8695
+
+management.endpoints.web.exposure.include : "*"
